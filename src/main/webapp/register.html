@@ -1,0 +1,12 @@
+<div>
+    <h1>{{message}}</h1>
+    <form name="register_form" ng-submit="register()">
+        <fieldset>
+            <legend>Email: </legend>
+            <input type="email" ng-model="email" placeholder="Enter your email id" required/>
+            <legend>Password: </legend>
+            <input type="password" ng-model="password" placeholder="Enter your password" required />
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</div>

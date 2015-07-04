@@ -1,0 +1,32 @@
+<div>
+    <u><h3>Application Information:</h3></u>
+    <h3>
+        The Remote Command Broadcast application showcases the power of websocket API which enables the servers to communicate with
+        <br/>the client browser sessions and vice versa. This experimental web application helps you to send commands remotely from one
+        <br/>of your machine's browser session (registered as MASTER) to several other machines sessions(registered as SLAVE).
+        <br/>The user interface in action is your web browser on your machine which supports websockets.
+        <br/>
+        <br/>Play with this application by following the below steps:
+        <br/>
+        <br/>1) Register your web browser session as a SLAVE using a valid email id and a password. By registering as a SLAVE
+        <br/>   The commands as invoked by the MASTER web browser session would be executed in the SLAVE sessions. You can register
+        <br/>   as many SLAVE sessions as you want on different machines which you want to control remotely.
+        <br/>
+        <br/>2) Register one of your browser session as a MASTER using the same valid email id and password which was used while
+        <br/>   registering the SLAVE sessions. This will allow to link up the MASTER session with all the SLAVE sessions registered
+        <br/>   with the same email id. Please note that there can only be one MASTER session for every registered email Id.
+
+    </h3>
+    <br/>
+    <hr/>
+    <u><h3>Technologies used:</h3></u>
+    <h3>This application is built over AngularJS on the client end and the makes use of the websocket API support offered in Java EE7
+        <br/>on the server side. Also, this application makes use of the angular-websocket.js script
+        (can be found at repo:https://github.com/gdi2290/angular-websocket.git). It is hosted over OpenShift tomcat7 Cartridge.</h3>
+</div>
+<hr/>
+<div>
+    <h3>Time to Play....</h3>
+    <a href="#/register/SLAVE">Register as a Slave</a><br/>
+    <a href="#/register/MASTER">Register as a Master</a>
+</div>
