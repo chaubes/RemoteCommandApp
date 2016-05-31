@@ -1,5 +1,4 @@
-# RemoteCommandApp
-Remote Command Websocket Application
+# Remote Command Websocket Application 
 
 Application Information:
 
@@ -22,4 +21,4 @@ with the same email id. Please note that there can only be one MASTER session fo
 Technologies used:
 
 This application is built over AngularJS on the client end and the makes use of the websocket API support offered in Java EE7 
-on the server side. Also, this application makes use of the angular-websocket.js script (can be found at repo:https://github.com/gdi2290/angular-websocket.git). It is hosted over OpenShift tomcat7 Cartridge.
+on the server side. Also, this application makes use of the angular-websocket.js script (can be found at repo:https://github.com/gdi2290/angular-websocket.git).
